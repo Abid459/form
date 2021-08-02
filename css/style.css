@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background:linear-gradient(to left bottom,rgb(3, 195, 253),rgb(0, 62, 90));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    width: 350px;
+    height: 500px;
+    background:white;
+    /* margin: auto; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    border-radius: 10px;
+}
+.h3_login{
+    margin:30px;
+}
+.inner_wrapper{
+    width:70%;
+    height: 100%;
+    margin: auto;
+}
+label{
+    display: block;
+    text-align: left;
+}
+input{
+    width: 100%;
+    padding: 0px 28px;
+    /* margin:0px 0; */
+    display: block;
+    text-align: left;
+    border:none;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    outline: none;
+    box-sizing: border-box;
+}
+.password{
+    position: relative;
+}
+.user i{
+    position:relative;
+			left: -110px;
+			color: gray;
+            top:13px;
+}
+.password i{
+    position:relative;
+			left: -110px;
+			color: gray;
+            top:15px;
+}
+.user{
+    margin: 0px 0px 40px 0px;
+}
+.forgot_pass{
+    display: block;
+    text-align: right;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    margin: 10px 0px;
+    width: 100%;
+    padding: 6px;
+    border: 0;
+    background: linear-gradient(to right top,rgba(0, 130, 139, 0.767),rgba(26, 58, 240, 0.883));
+    border-radius: 9px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    color: wheat;
+}
+.signup{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+.other_signup{
+    color: rgb(61, 61, 61);
+}
+.icon-fb{
+    margin-top: 10px;
+    padding: 4px;
+    color: rgb(40, 74, 224);
+    cursor: pointer;
+    transition: .4s;
+}
+.icon-google{
+    margin-top: 10px;
+    padding: 4px;
+    color: rgb(251, 49, 49);
+    cursor: pointer;
+    transition: .4s;
+}
+.icon-fb:hover{
+    transform: scale(1.1);
+    color: rgb(0, 39, 211);
+}
+.icon-google:hover{
+    transform: scale(1.1);
+    color: rgb(250, 6, 6);
+    
+}
